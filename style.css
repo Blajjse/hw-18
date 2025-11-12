@@ -1,0 +1,39 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+.header_title {
+    font-family: 'Oswald', cursive;
+    font-size: 44px;
+    color: #605aad;
+    text-align: center;
+}
+.header_subtitle {
+    font-family: 'Momo Signature', cursive;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+}
+.main_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.main_item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    flex-direction: row;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width: calc(50% - 40px);
+    box-shadow: inset 0 0 10px #000000; 
+}
+.main_img {
+    width: 500px;
+    height: 350px;
+}
